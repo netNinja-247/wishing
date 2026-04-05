@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday!</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: center;
+        padding: 50px;
+        color: #fff;
+      }
+
+      h1 {
+        font-size: 60px;
+        color: #fff176;
+        text-shadow: 2px 2px 5px #d81b60;
+        animation: pulse 1.5s infinite;
+      }
+
+      p {
+        font-size: 28   px;
+        margin-top: 20px;
+      }
+
+      .cake {
+        font-size: 80px;
+        margin: 20px 0;
+        animation: float 2s ease-in-out infinite;
+      }
+
+      .photo {
+        margin-top: 30px;
+        border: 5px solid #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        max-width: 300px;
+        width: 100%;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🎉 Happy Birthday! 🎉</h1>
+    <h1>Ahamd Zahid 🥳</h1>
+
+    <div class="cake">🎂</div>
+
+    <!-- Add your image below -->
+    <img src="/ahmad-zahid.jpeg" alt="Birthday Person" class="photo" />
+    <p>Wishing you a day full of happiness and a year full of blessings!</p>
+
+  </body>
+</html>
